@@ -39,7 +39,7 @@ class App extends Component {
                             return <Services services={filteredServices} onSearchChange={this.onSearchChange}/>;
                         }}/>
                         <Route path={'/payment/:ID'} component={PaymentPage}/>
-                        <Route component={NotFound}/>
+                        <Route component={Home}/>
                     </Switch>
                 </div>
             </div>

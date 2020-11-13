@@ -2,7 +2,7 @@
   "name": "cheap-daddy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cheap-daddy.github.io/",
+  "homepage": "http://cheap-daddy.github.io/cheapDaddy",
   "dependencies": {
     "emailjs-com": "^2.6.3",
     "node-sass": "^4.0.0",
