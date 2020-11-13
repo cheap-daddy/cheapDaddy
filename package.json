@@ -2,6 +2,7 @@
   "name": "cheap-daddy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cheap-daddy.github.io/cheapDaddy",
   "dependencies": {
     "emailjs-com": "^2.6.3",
     "node-sass": "^4.0.0",
@@ -17,6 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
